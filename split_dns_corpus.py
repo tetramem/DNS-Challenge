@@ -106,4 +106,5 @@ def create_corpus(path, path_new, percent_of_train_material=80):
 
 
 
-
+if __name__ == '__main__':
+    create_corpus('./training_set','./training_set')
